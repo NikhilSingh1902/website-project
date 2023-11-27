@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(13, 13, 14);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color: aliceblue;
+    
+}
+nav ul li{
+    padding: 20px;
+}
+.brand img{
+    width: 35px;
+    height: 40px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.ho{
+    cursor: pointer;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 1px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 12px white;
+    background-image: url('pic.jpg') ;
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+    padding: 10px;
+}
+#myprogessbar{
+    width: 80vh;
+    
+}
+.item1{
+    background: url(https://w7.pngwing.com/pngs/635/67/png-transparent-control-music-pause-play-stop-music-player-controls-icon.png);
+}
+.tem2{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3xYEPbyBdD_iNY_wURXnsB4k8tDq6L0p-VQ&usqp=CAU);
+}
+.songcontainer{
+    margin:40px;
+    margin-left: 5px;
+}
+.songitem{
+    height:48px;
+    display: flex;
+    background-color: aliceblue;
+    width: 105%;
+    color: black;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.songitem img{
+    width:36px;
+    margin:0 14px;
+    border-radius: 34px;
+    cursor: pointer;
+}
+.timestamp{
+    margin:0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vh;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
