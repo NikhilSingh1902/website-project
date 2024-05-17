@@ -38,12 +38,14 @@ nav ul li{
     width: 80%;
     padding: 20px;
     border-radius: 12px white;
-    background-image: url('pic.jpg') ;
-
+    background-image: url('pcc.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .bottom{
     position: sticky;
-    height: 130px;
+    height: 100px;
     background-color: black;
     color: white;
     bottom:0;
@@ -96,11 +98,9 @@ nav ul li{
 .timestamp i{
     cursor: pointer;
 }
-.songinfo{
-    position: absolute;
-    left: 10vh;
-}
-.songinfo img{
-    opacity: 0;
-    transition: opacity 0.3s ease-in;
-}
+
+
+  
+  
+  
+ 
